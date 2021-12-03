@@ -44,7 +44,7 @@ exports.lambdaHandler = async () => {
         }
     })
 
-    return { statusCode: 200, body: JSON.stringify(participants) }
+    return { statusCode: 200, body: JSON.stringify({}) }
 }
 
 function formatSlackPayload(participants) {
